@@ -1,0 +1,10 @@
+https://start.spring.io/
+
+NB: Install jdk 11 because the following is specified in Dockerfile:
+FROM openjdk:11
+
+
+NB: EXPOSE in Dockerfile does not publish the port.
+To publish the port on a running container use -p PORT_EXTERNAL:PORT_INTERNAL
+
+Test: 		curl localhost:8080/api/v1/welcome

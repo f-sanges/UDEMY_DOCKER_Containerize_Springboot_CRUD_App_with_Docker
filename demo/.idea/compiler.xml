@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="demo_fsanges" target="13" />
+      <module name="demo_fsanges.main" target="13" />
+      <module name="demo_fsanges.test" target="13" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
